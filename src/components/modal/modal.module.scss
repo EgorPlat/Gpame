@@ -1,0 +1,46 @@
+.modal {
+    display: grid;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    position: absolute;
+    max-width: 600px;
+    max-height: 300px;
+    min-height: 260px;
+    min-width: 500px;
+    background-color: aliceblue;
+    background: url("../../../public/modalLow.png");
+    border-radius: 1px;
+    padding: 10px;
+    & .title {
+        font-size: 30px;
+        text-align: center;
+        color: #a18600;
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-weight: 600;
+        letter-spacing: 0.1ch;
+    }
+    & .close {
+        position: absolute;
+        cursor: pointer;
+        border-radius: 3px;
+        font-size: 18px;
+        right: 10px;
+        top: 30px;
+        background-color: #f9852bd0;
+        border: 1px solid black;
+        color: white;
+        width: 25px;
+        height: 25px;
+    }
+    & .confirm {
+        width: 200px;
+        height: 30px;
+        background-color: #f9852bd0;
+        border: 1px solid black;
+        border-radius: 3px;
+        color: white;
+        font-weight: 600;
+        letter-spacing: 0.2ch;
+    }
+}
