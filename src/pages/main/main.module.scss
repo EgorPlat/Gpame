@@ -1,0 +1,31 @@
+.main {
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
+    & .mainContent {
+        background: url('../../../public/background.jpg');
+        margin-top: 60px;
+        width: 870px;
+        height: 620px;
+        background-color: aliceblue;
+        display: grid;
+        grid-template-rows: 1fr 10fr 3fr;
+        & .topBlock {
+            
+        }
+        & .centerBlock {
+            display: grid;
+            grid-template-columns: 4fr 1fr;
+            & .centerContent {
+                
+            }
+            & .centerRightMenu {
+                
+            }
+        }
+        & .bottomBlock {
+            
+        }
+    }
+}

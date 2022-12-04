@@ -1,0 +1,18 @@
+.menuDropDown {
+    display: flex;
+    column-gap: 5px;
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: 0.05vh;
+    align-items: center;
+    padding-left: 15px;
+    color: beige;
+    border-radius: 5px;
+    width: 135px;
+    height: 70%;
+    border: 1px solid black;
+    background: #8B4103;
+    background: -webkit-linear-gradient(top, #8B4103, #F0996A);
+    background: -moz-linear-gradient(top, #8B4103, #F0996A);
+    background: linear-gradient(to bottom, #8B4103, #F0996A);
+}
